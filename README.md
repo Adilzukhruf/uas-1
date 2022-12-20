@@ -5,7 +5,12 @@
 <br>jurusan      : [Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## deskripsi umum
-membuat array menggunakan bahasa c++,input banyak baris dan banyak kolom array dimensi 2 dan isi dengan nilai, di ubah baris menjadi kolom, kolom menjadi baris.
+1.Buat sebuah array multidimensi untuk menyimpan matrix yang ingin ditranspose.
+2.Buat sebuah loop untuk mengelilingi setiap element dalam matrix tersebut.
+3.Dalam loop tersebut, salin nilai dari setiap element ke posisi baris dan kolom yang berlawanan di dalam matrix transpose.
+4.Misalnya, jika element saat ini berada di baris ke-2 dan kolom ke-3, maka element tersebut harus disalin ke posisi baris ke-3 dan kolom ke-2 di dalam matrix transpose.
+5.Buat sebuah loop lain untuk mencetak setiap element dalam matrix transpose.
+6.Anda bisa menggunakan operator cout dengan format "cout << element << " ";". Ingat untuk menambahkan baris baru setelah setiap baris dari matrix transpose selesai dicetak.
 
 ## source code
 #include <iostream>
@@ -13,11 +18,6 @@ using namespace std;
 
 int main(){
 	int i, j, b, k, matriks[20][20], transpose[20][20];
-  
-  cout << "adil zukhruf firdaus \n";
-  cout << "1227050005 \n";
-  cout << "UAS NOMOR 1 DASAR PEMROGRAMAN (Transpose matriks)\n";
-  cout << "========================================= \n\n";
 
   cout << "Masukkan jumlah baris matriks: ";
   cin >> b;
