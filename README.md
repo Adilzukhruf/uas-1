@@ -19,6 +19,11 @@ using namespace std;
 
 int main(){
 	int i, j, b, k, matriks[20][20], transpose[20][20];
+  
+  cout << "adil zukhruf firdaus \n";
+  cout << "1227050005 \n";
+  cout << "UAS NOMOR 1 DASAR PEMROGRAMAN (Transpose matriks)\n";
+  cout << "========================================= \n\n";
 
   cout << "Masukkan jumlah baris matriks: ";
   cin >> b;
@@ -58,5 +63,7 @@ int main(){
     cout << endl;
   }
 }
+
+
 ## output
 ![Screenshot (2)](https://user-images.githubusercontent.com/121107393/208690663-e76173e5-4c3d-45ea-b856-008eaffe4961.png)
